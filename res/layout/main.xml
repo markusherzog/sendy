@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="#FFFFFF">
+      
+      <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="#ffe276"
+      android:padding="4dip">
+      <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+        android:text="sendy"
+        android:textColor="#7f622d"
+        android:textSize="12dip" android:singleLine="true">
+      </TextView>
+      <TextView 
+      android:id="@+id/site"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+        android:textColor="#7f622d"
+        android:gravity="right"
+        android:textSize="12dip"
+        android:clickable="true"
+        android:singleLine="true"
+        android:ellipsize="end">
+      </TextView>
+      </LinearLayout>
+    <EditText
+        android:id="@+id/title"
+        android:hint="@string/hint_title"
+        android:maxLines="2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_margin="4dip"/>
+        
+    <EditText
+        android:id="@+id/body"
+        android:hint="@string/hint_body"
+        android:lines="5"
+        android:gravity="top"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="4dip" 
+        android:layout_marginLeft="4dip"
+        android:layout_marginRight="4dip"/>
+        
+   <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left">
+
+      <Button
+          android:id="@+id/btn_add_picture_from_camera"
+          android:layout_height="wrap_content"
+          android:layout_width="fill_parent"
+          android:text="@string/button_add_picture_from_camera"
+          android:layout_weight="1"
+          android:drawableLeft="@drawable/ic_menu_camera"
+          android:paddingTop="2sp"
+          android:paddingBottom="2sp"
+          android:layout_marginLeft="4dip"/>
+      
+      <Button
+          android:id="@+id/btn_add_picture_from_card"
+          android:layout_height="wrap_content"
+          android:layout_width="fill_parent"
+          android:text="@string/button_add_picture_from_card"
+          android:layout_weight="1"
+          android:drawableLeft="@drawable/ic_menu_gallery"
+          android:paddingTop="2sp"
+          android:paddingBottom="2sp"
+          android:layout_marginRight="4dip"/>
+     </LinearLayout>
+     
+     <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="4dip">
+
+        <TextView  
+	        android:id="@+id/attachment_count"
+	        android:layout_width="wrap_content" 
+	        android:layout_height="fill_parent" 
+	        android:text="@string/text_attachment_count"
+	        android:textSize="10sp"
+	        android:textColor="#000000"
+	        android:layout_weight="1"/>
+    
+   
+    
+    <CheckBox android:id="@+id/cb_private"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_markprivate" 
+        android:textColor="#000000" />
+        
+	  <CheckBox android:id="@+id/cb_autopost"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content"
+	      android:text="@string/cb_autopost"
+	      android:textColor="#000000" />    
+    </LinearLayout>
+    <LinearLayout
+	      android:orientation="horizontal"
+	      android:layout_width="fill_parent"
+	      android:layout_height="fill_parent"
+	      android:gravity="bottom"
+	      android:padding="4dip">
+	      
+	      <Button
+          android:id="@+id/btn_discard"
+          android:layout_height="wrap_content"
+          android:layout_width="fill_parent"
+          android:text="@string/button_discard"
+          android:layout_weight="1"
+          />
+
+	    <Button
+	        android:id="@+id/btn_post"
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:text="@string/button_post"
+          android:layout_weight="1"
+	        />
+     </LinearLayout>
+  </LinearLayout>

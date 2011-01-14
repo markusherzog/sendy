@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="#FFFFFF">
+      
+	    <EditText android:id="@+id/username" 
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content" 
+	      android:hint="@string/hint_username"
+	      inputType="textEmailAddress"
+	      android:layout_margin="4dip" />
+	      
+		  <EditText android:id="@+id/password" 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" 
+		    android:hint="@string/hint_password"
+		    android:inputType="textPassword"
+		    android:layout_margin="4dip" />
+
+		  <CheckBox android:id="@+id/cb_usehttps"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cb_usehttps"
+        android:textColor="#000000"
+        android:layout_margin="4dip" />
+
+         
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="4dip">
+        
+        <Button
+          android:id="@+id/btn_test_login"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/button_test_login"
+          android:layout_weight="1"
+          />
+
+      <Button
+          android:id="@+id/btn_confirm"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/button_confirm"
+          android:layout_weight="1"
+          />
+     </LinearLayout>
+  </LinearLayout>

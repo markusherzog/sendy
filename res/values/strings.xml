@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">sendy</string>
+    <string name="cb_markprivate">Mark this post as private</string>
+    <string name="cb_autopost">Autopost everywhere</string>
+    <string name="button_add_picture_from_camera">Camera</string>
+    <string name="button_add_picture_from_card">Gallery</string>
+    <string name="button_post">Post</string>
+    <string name="button_discard">Discard</string>
+    <string name="button_test_login">Test Login</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_body">Post text (optional)</string>
+    <string name="text_attachment_count">Your post has no attachments yet.</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="cb_usehttps">Use https</string>
+    <string name="text_choose_site">Choose site</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_about">About</string>
+    <string name="about"><![CDATA[
+    <html>
+	    <head>
+	      <style type="text/css">
+	        body{font-size: 0.8em;}
+	      </style>
+	    </head>
+	    <body>
+		    <h1>Changelog</h1>
+		    <h2>1.6.5</h2>
+        <ul>
+          <li>Sendy now works in landscape mode.</li>
+          <li>Maybe fix (workaround) for the \'Error -1\' error.</li>
+        </ul>
+		    <h2>1.6.1</h2>
+        <ul>
+          <li>Fix crash while switching to different site.</li>
+        </ul>
+		    <h2>1.6</h2>
+		    <ul>
+		      <li>New design! <b>Travis Allen Tubbs</b> crafted some very cool mockups and he even allowed me to use them. Thank you, Travis!</li>
+		      <li>Ability to choose which site you are posting to. Click in the upper right corner of the sendy main screen to get a list of your sites.</li>
+		    </ul>
+		    <h2>1.5.1</h2>
+		    <ul>
+		      <li>Fix crash when phone gets rotated while posting data</li>
+		    </ul>
+		    <h2>1.5</h2>
+		    <ul>
+		      <li>Support for https. It\'s enabled by default. You can turn it off again via Menu -> Settings</li>
+		      <li>Adding pictures from sd card.</li>
+		      <li>Display waiting indicator while posting</li>
+		    </ul>
+		    Hacked together by <a href="http://www.markusherzog.com">Markus Herzog</a>.<br/>
+		    Design inspired by (no, wait, it\'s copied from) <a href="http://internalserver.net">Travis Allen Tubbs</a>.
+	    </body>
+	  </html>
+    ]]>
+    </string>
+</resources>
